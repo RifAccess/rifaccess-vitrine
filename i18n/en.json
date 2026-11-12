@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "RifAccess — Measuring rural isolation in the Rif",
+    "description": "RifAccess measures how douars in the Rif reach all-season roads, healthcare and schools to clarify investment priorities."
+  },
+  "a11y": { "skip": "Skip to content", "mainNav": "Main navigation", "language": "Language", "season": "Season", "keyFigures": "Key figures" },
+  "nav": {
+    "menu": "Open menu",
+    "measure": "Measures",
+    "method": "Method",
+    "territory": "Territory",
+    "journal": "Journal",
+    "appSoon": "Application, coming soon"
+  },
+  "hero": {
+    "title": "Measuring rural isolation in the Rif.",
+    "promise": "RifAccess identifies isolated douars, measures their access to essential services, and helps reveal where investment can open them up first.",
+    "ctaExplain": "Understand the RAI",
+    "ctaJournal": "View the project journal"
+  },
+  "diagram": {
+    "title": "One road. One radius. A reality that changes with the season.",
+    "dry": "Dry season",
+    "rainy": "Rainy season",
+    "svgTitle": "Diagram of douar access to an all-season road",
+    "svgDesc": "A road crosses the territory. A band represents a two-kilometre distance. Accessible douars are green and isolated douars are terracotta. During the rainy season two tracks disappear and two douars become isolated.",
+    "road": "ALL-SEASON ROAD",
+    "covered": "Within threshold",
+    "isolated": "Outside threshold",
+    "dryStatus": "Tracks complete the network during the dry season.",
+    "rainyStatus": "Impassable tracks are removed from the network."
+  },
+  "figures": {
+    "provincesValue": "4",
+    "provincesLabel": "Rif provinces studied",
+    "populationValue": "≈ 1.39 M",
+    "populationLabel": "rural inhabitants in the region — RGPH 2024",
+    "thresholdValue": "2 km",
+    "thresholdLabel": "access threshold — SDG 9.1.1",
+    "douarsValue": "33,189",
+    "douarsLabel": "douars in the HCP RGPH 2024 database"
+  },
+  "problem": {
+    "marker": "The problem",
+    "titleA": "When terrain",
+    "titleB": "becomes distance.",
+    "body": "In the Rif, straight-line proximity does not tell the whole story. Terrain, dispersed settlement, and tracks that become impassable in the rain turn a few kilometres into uncertain travel time.",
+    "noteRelief": "Steep slopes lengthen real journeys.",
+    "noteRain": "A track can connect in the dry season and cut off in the rains.",
+    "noteServices": "Isolation is visible in access to healthcare and school."
+  },
+  "measures": {
+    "marker": "What we measure",
+    "title": "Four readings of the same territory.",
+    "intro": "Distance alone is not enough. We combine the road network, terrain, seasonality and population to make isolation legible.",
+    "formulaTop": "Rural Access Index definition",
+    "formulaNumerator": "rural population within 2 km of an all-season road",
+    "formulaDenominator": "total rural population",
+    "raiTitle": "Rural Access Index",
+    "raiBody": "The share of rural people living within 2 km of an all-season road, in line with SDG indicator 9.1.1.",
+    "timeTitle": "Time to services",
+    "timeBody": "The journey to the nearest health centre and school, including the effect of slope.",
+    "seasonTitle": "Seasonal gap",
+    "seasonBody": "The change in access between the dry and rainy seasons when unpaved tracks leave the network.",
+    "priorityTitle": "Priority score",
+    "priorityBody": "A combined reading of population and isolation to identify interventions to examine first."
+  },
+  "method": {
+    "marker": "Method",
+    "title": "From a point on the map to a territorial priority.",
+    "intro": "A reproducible seven-step path, from raw sources to a reading designed for decisions.",
+    "steps": [
+      { "title": "Collection", "description": "Gather territorial, road, topographic and demographic datasets." },
+      { "title": "Preparation", "description": "Harmonise formats, reference systems and geographic quality." },
+      { "title": "All-season network", "description": "Classify roads and distinguish rain-sensitive tracks." },
+      { "title": "RAI calculation", "description": "Apply the 2 km threshold around the all-season network." },
+      { "title": "Travel time", "description": "Model trips to health and school with the effect of slope." },
+      { "title": "Validation", "description": "Check results and document the method's limitations." },
+      { "title": "Priorities", "description": "Combine population and isolation into a prioritisation view." }
+    ]
+  },
+  "data": {
+    "marker": "Data",
+    "title": "Official sources, enriched by digital terrain evidence.",
+    "intro": "HCP data provides the territorial backbone. Open and non-conventional sources describe the network, terrain and accessibility.",
+    "officialLabel": "Official reference",
+    "officialTitle": "HCP data",
+    "officialItems": ["Douar database — RGPH 2024", "Administrative boundaries", "Population — RGPH 2024"],
+    "otherLabel": "Complementary sources",
+    "otherTitle": "Non-conventional data",
+    "otherItems": ["OpenStreetMap — road network", "Copernicus DEM — 30 m terrain", "Population grids — 100 m", "Malaria Atlas Project — accessibility maps", "Sentinel-2 — optional imagery"]
+  },
+  "territory": {
+    "marker": "Territory",
+    "title": "Four provinces, one access challenge.",
+    "body": "The study covers Al Hoceima, Chefchaouen, Ouezzane and Tétouan in the Tanger–Tétouan–Al Hoceima region.",
+    "note": "Schematic map with no administrative boundary value. No provincial indicator has been fabricated at this stage.",
+    "mapTitle": "Schematic map of the four provinces studied",
+    "mapDesc": "Four adjacent shapes represent Tétouan, Chefchaouen, Ouezzane and Al Hoceima.",
+    "provinces": ["Al Hoceima", "Chefchaouen", "Ouezzane", "Tétouan"]
+  },
+  "journal": {
+    "marker": "Project journal",
+    "title": "The work, as the data unfolds.",
+    "intro": "Short, verifiable updates maintained from a single JSON file."
+  },
+  "calendar": {
+    "marker": "Calendar",
+    "title": "From launch to the final pitch.",
+    "intro": "The four milestones of the 2026 Data-Territoires Datathon.",
+    "items": [
+      { "date": "02 NOV 2026", "title": "Datathon launch", "description": "Work opens on the Rural Access Index theme." },
+      { "date": "23 NOV 2026", "title": "Mid-term review", "description": "A checkpoint for the method and first results." },
+      { "date": "04 DEC 2026", "title": "Deliverables due", "description": "Submission of the project's outputs." },
+      { "date": "14–15 DEC 2026", "title": "Final and pitch", "description": "Forum Data-Territoires in Tangier." }
+    ]
+  },
+  "team": {
+    "marker": "Team",
+    "title": "Three perspectives, one territory to make legible.",
+    "intro": "The RifAccess team for the 2026 Data-Territoires Datathon.",
+    "role": "Team member",
+    "members": [
+      { "name": "Taoufiq Elmahrouk", "initials": "TE" },
+      { "name": "Ahmed Ait Bargach", "initials": "AA" },
+      { "name": "Zakaria Lechguer", "initials": "ZL" }
+    ]
+  },
+  "soon": {
+    "title": "A platform to move from map to priority.",
+    "body": "Coming soon at app.rifaccess.com: a territorial view of access, from the region down to commune and douar profiles.",
+    "features": ["Interactive maps", "Commune and douar profiles", "Intervention priorities"],
+    "cta": "Follow progress"
+  },
+  "footer": {
+    "tagline": "Measuring rural isolation in the Rif.",
+    "credits": "Photography credits",
+    "contact": "Contact",
+    "sources": "Sources: HCP RGPH 2024, OpenStreetMap, Copernicus DEM, 100 m population grids, Malaria Atlas Project, optional Sentinel-2.",
+    "disclaimer": "Team project produced for the 2026 Data-Territoires Datathon. This website is not an HCP publication."
+  },
+  "images": {
+    "rifPanoramaAlt": "Landscape of the Rif Mountains around Chefchaouen",
+    "rifPanoramaCaption": "The Rif around Chefchaouen — GuHKS, CC BY-SA 4.0",
+    "roadAlt": "Chefchaouen and the Rif mountains seen from the road",
+    "roadCaption": "Road to Chefchaouen — YoTuT, CC BY 2.0"
+  },
+  "credits": {
+    "back": "Back to the site",
+    "title": "Photography credits.",
+    "intro": "Every photograph is served locally. Its source, author and licence are documented below.",
+    "modificationsTitle": "Changes applied",
+    "modifications": "Images were resized, cropped for their use, converted to WebP and lightly graded with a warm tone. No documentary element was added or removed.",
+    "source": "View source file",
+    "license": "View licence",
+    "items": [
+      { "title": "The Rif around Chefchaouen", "author": "GuHKS", "licenseName": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_view_of_the_Rif_Mountains_around_Chefchaouen._.jpg", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/", "image": "/assets/img/rif-chefchaouen-640.webp", "alt": "Landscape of the Rif Mountains around Chefchaouen" },
+      { "title": "Road to Chefchaouen", "author": "YoTuT", "licenseName": "CC BY 2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_road_to_Chefchaouen,_Morocco_(5408841877)_(3).jpg", "licenseUrl": "https://creativecommons.org/licenses/by/2.0/", "image": "/assets/img/road-chefchaouen-640.webp", "alt": "Chefchaouen and the Rif mountains seen from the road" },
+      { "title": "Akchour corridor", "author": "Jaber Ab", "licenseName": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Road_To_Akchour.jpg", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/", "image": "/assets/img/road-akchour-640.webp", "alt": "River and rocky terrain on the road to Akchour" },
+      { "title": "Al Hoceima mountains", "author": "Pierrebanoori", "licenseName": "CC BY-SA 3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountains_of_Morocco,_Al_Hoceima.JPG", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/", "image": "/assets/img/al-hoceima-640.webp", "alt": "Mountains and rural settlement near Al Hoceima" }
+    ]
+  }
+}

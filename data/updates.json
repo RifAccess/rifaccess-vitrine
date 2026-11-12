@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-11-09",
+    "tag": { "fr": "Projet", "en": "Project" },
+    "title": { "fr": "Lancement du projet", "en": "Project launch" },
+    "text": { "fr": "Le travail de l'équipe RifAccess démarre sur la thématique de l'indice d'accès rural.", "en": "The RifAccess team begins work on the Rural Access Index theme." }
+  },
+  {
+    "date": "2026-11-10",
+    "tag": { "fr": "Cadrage", "en": "Scoping" },
+    "title": { "fr": "Note de cadrage v1.0 publiée", "en": "Scoping note v1.0 published" },
+    "text": { "fr": "Le périmètre, les indicateurs et la chaîne méthodologique sont posés dans une première version de travail.", "en": "The scope, indicators and methodological chain are set out in a first working version." }
+  },
+  {
+    "date": "2026-11-12",
+    "tag": { "fr": "Collecte", "en": "Collection" },
+    "title": { "fr": "Collecte des données, en cours", "en": "Data collection in progress" },
+    "text": { "fr": "Les jeux de données officiels et complémentaires sont en cours d'inventaire et de préparation.", "en": "Official and complementary datasets are being inventoried and prepared." }
+  }
+]

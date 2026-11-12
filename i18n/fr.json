@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "RifAccess — Mesurer l'enclavement rural dans le Rif",
+    "description": "RifAccess mesure l'accès des douars du Rif aux routes toutes saisons, aux soins et à l'école pour éclairer les priorités d'investissement."
+  },
+  "a11y": { "skip": "Aller au contenu", "mainNav": "Navigation principale", "language": "Langue", "season": "Saison", "keyFigures": "Chiffres clés" },
+  "nav": {
+    "menu": "Ouvrir le menu",
+    "measure": "Mesures",
+    "method": "Méthode",
+    "territory": "Territoire",
+    "journal": "Journal",
+    "appSoon": "Application, bientôt"
+  },
+  "hero": {
+    "title": "Mesurer l'enclavement rural dans le Rif.",
+    "promise": "RifAccess identifie les douars isolés, mesure leur accès aux services essentiels et aide à voir où investir en premier pour les désenclaver.",
+    "ctaExplain": "Comprendre le RAI",
+    "ctaJournal": "Voir le journal du projet"
+  },
+  "diagram": {
+    "title": "Une route. Un rayon. Une réalité qui change avec la saison.",
+    "dry": "Saison sèche",
+    "rainy": "Saison des pluies",
+    "svgTitle": "Diagramme de l'accès des douars à une route toutes saisons",
+    "svgDesc": "Une route traverse le territoire. Une bande représente une distance de deux kilomètres. Les douars accessibles sont verts et les douars isolés sont en terracotta. En saison des pluies, deux pistes disparaissent et deux douars deviennent isolés.",
+    "road": "ROUTE TOUTES SAISONS",
+    "covered": "Dans le seuil",
+    "isolated": "Hors du seuil",
+    "dryStatus": "Les pistes complètent le réseau en saison sèche.",
+    "rainyStatus": "Les pistes non praticables sont retirées du réseau."
+  },
+  "figures": {
+    "provincesValue": "4",
+    "provincesLabel": "provinces du Rif étudiées",
+    "populationValue": "≈ 1,39 M",
+    "populationLabel": "d'habitants ruraux dans la région — RGPH 2024",
+    "thresholdValue": "2 km",
+    "thresholdLabel": "seuil d'accès — ODD 9.1.1",
+    "douarsValue": "33 189",
+    "douarsLabel": "douars dans la base HCP RGPH 2024"
+  },
+  "problem": {
+    "marker": "Le problème",
+    "titleA": "Quand le relief",
+    "titleB": "devient une distance.",
+    "body": "Dans le Rif, la proximité à vol d'oiseau ne raconte pas tout. Le relief, la dispersion de l'habitat et les pistes qui deviennent impraticables sous la pluie transforment quelques kilomètres en temps d'accès incertain.",
+    "noteRelief": "Des pentes fortes allongent les trajets réels.",
+    "noteRain": "Une piste peut relier en saison sèche et couper en saison des pluies.",
+    "noteServices": "L'isolement se lit dans l'accès aux soins et à l'école."
+  },
+  "measures": {
+    "marker": "Ce que nous mesurons",
+    "title": "Quatre lectures d'un même territoire.",
+    "intro": "La distance seule ne suffit pas. Nous croisons réseau routier, relief, saisonnalité et population pour rendre l'enclavement lisible.",
+    "formulaTop": "Définition de l'indice d'accès rural",
+    "formulaNumerator": "population rurale à moins de 2 km d'une route toutes saisons",
+    "formulaDenominator": "population rurale totale",
+    "raiTitle": "Indice d'accès rural",
+    "raiBody": "La part de la population rurale vivant à moins de 2 km d'une route praticable toute l'année, conformément à l'indicateur ODD 9.1.1.",
+    "timeTitle": "Temps vers les services",
+    "timeBody": "Le trajet jusqu'au centre de santé et à l'école les plus proches, en intégrant l'effet de la pente.",
+    "seasonTitle": "Écart entre saisons",
+    "seasonBody": "La différence d'accès entre saison sèche et saison des pluies lorsque les pistes non revêtues sortent du réseau.",
+    "priorityTitle": "Score de priorité",
+    "priorityBody": "Une lecture combinée de la population et de l'isolement pour repérer les interventions à examiner en premier."
+  },
+  "method": {
+    "marker": "Méthode",
+    "title": "Du point sur la carte à la priorité territoriale.",
+    "intro": "Un parcours reproductible en sept étapes, des sources brutes à une lecture directement utile pour la décision.",
+    "steps": [
+      { "title": "Collecte", "description": "Rassembler les bases territoriales, routières, topographiques et démographiques." },
+      { "title": "Préparation", "description": "Harmoniser les formats, les référentiels et la qualité géographique." },
+      { "title": "Réseau toutes saisons", "description": "Qualifier les routes et distinguer les pistes sensibles aux pluies." },
+      { "title": "Calcul du RAI", "description": "Appliquer le seuil de 2 km autour du réseau toutes saisons." },
+      { "title": "Temps d'accès", "description": "Modéliser les trajets vers santé et école avec l'effet de la pente." },
+      { "title": "Validation", "description": "Contrôler les résultats et documenter les limites de la méthode." },
+      { "title": "Priorités", "description": "Combiner population et isolement dans une lecture de priorisation." }
+    ]
+  },
+  "data": {
+    "marker": "Données",
+    "title": "Des sources officielles, enrichies par le terrain numérique.",
+    "intro": "La base HCP fournit l'ossature territoriale. Des sources ouvertes et non conventionnelles décrivent le réseau, le relief et l'accessibilité.",
+    "officialLabel": "Référentiel officiel",
+    "officialTitle": "Données HCP",
+    "officialItems": ["Base des douars — RGPH 2024", "Limites administratives", "Population — RGPH 2024"],
+    "otherLabel": "Sources complémentaires",
+    "otherTitle": "Données non conventionnelles",
+    "otherItems": ["OpenStreetMap — réseau routier", "Copernicus DEM — relief à 30 m", "Grilles de population — 100 m", "Malaria Atlas Project — cartes d'accessibilité", "Sentinel-2 — imagerie optionnelle"]
+  },
+  "territory": {
+    "marker": "Territoire",
+    "title": "Quatre provinces, un même défi d'accès.",
+    "body": "L'étude couvre Al Hoceima, Chefchaouen, Ouezzane et Tétouan dans la région Tanger–Tétouan–Al Hoceima.",
+    "note": "Carte schématique, sans valeur de délimitation administrative. Aucun indicateur provincial n'est fabriqué à ce stade.",
+    "mapTitle": "Carte schématique des quatre provinces étudiées",
+    "mapDesc": "Quatre formes adjacentes représentent Tétouan, Chefchaouen, Ouezzane et Al Hoceima.",
+    "provinces": ["Al Hoceima", "Chefchaouen", "Ouezzane", "Tétouan"]
+  },
+  "journal": {
+    "marker": "Journal du projet",
+    "title": "Le travail, au fil des données.",
+    "intro": "Des mises à jour courtes et vérifiables, alimentées depuis un seul fichier JSON."
+  },
+  "calendar": {
+    "marker": "Calendrier",
+    "title": "Du lancement au pitch final.",
+    "intro": "Les quatre jalons du Datathon Data-Territoires 2026.",
+    "items": [
+      { "date": "02 NOV. 2026", "title": "Lancement du datathon", "description": "Ouverture du travail sur la thématique de l'indice d'accès rural." },
+      { "date": "23 NOV. 2026", "title": "Revue à mi-parcours", "description": "Point d'étape sur la méthode et les premiers résultats." },
+      { "date": "04 DÉC. 2026", "title": "Remise des livrables", "description": "Dépôt des productions du projet." },
+      { "date": "14–15 DÉC. 2026", "title": "Finale et pitch", "description": "Forum Data-Territoires à Tanger." }
+    ]
+  },
+  "team": {
+    "marker": "Équipe",
+    "title": "Trois regards, un territoire à rendre lisible.",
+    "intro": "L'équipe RifAccess réunie pour le Datathon Data-Territoires 2026.",
+    "role": "Membre de l'équipe",
+    "members": [
+      { "name": "Taoufiq Elmahrouk", "initials": "TE" },
+      { "name": "Ahmed Ait Bargach", "initials": "AA" },
+      { "name": "Zakaria Lechguer", "initials": "ZL" }
+    ]
+  },
+  "soon": {
+    "title": "Une plateforme pour passer de la carte à la priorité.",
+    "body": "Bientôt sur app.rifaccess.com : une lecture territoriale des accès, du niveau régional jusqu'aux fiches commune et douar.",
+    "features": ["Cartes interactives", "Fiches commune et douar", "Priorités d'intervention"],
+    "cta": "Suivre l'avancement"
+  },
+  "footer": {
+    "tagline": "Mesurer l'enclavement rural dans le Rif.",
+    "credits": "Crédits photographiques",
+    "contact": "Contact",
+    "sources": "Sources : HCP RGPH 2024, OpenStreetMap, Copernicus DEM, grilles de population 100 m, Malaria Atlas Project, Sentinel-2 en option.",
+    "disclaimer": "Projet d'équipe réalisé dans le cadre du Datathon Data-Territoires 2026. Ce site n'est pas une publication du HCP."
+  },
+  "images": {
+    "rifPanoramaAlt": "Paysage des montagnes du Rif autour de Chefchaouen",
+    "rifPanoramaCaption": "Rif autour de Chefchaouen — GuHKS, CC BY-SA 4.0",
+    "roadAlt": "Chefchaouen et les reliefs du Rif vus depuis la route",
+    "roadCaption": "Route vers Chefchaouen — YoTuT, CC BY 2.0"
+  },
+  "credits": {
+    "back": "Retour au site",
+    "title": "Crédits photographiques.",
+    "intro": "Toutes les photographies sont servies localement. Leurs sources, auteurs et licences sont documentés ci-dessous.",
+    "modificationsTitle": "Modifications appliquées",
+    "modifications": "Les images ont été redimensionnées, recadrées selon leur usage, converties en WebP et légèrement étalonnées dans une tonalité chaude. Aucun élément documentaire n'a été ajouté ou supprimé.",
+    "source": "Voir le fichier source",
+    "license": "Voir la licence",
+    "items": [
+      { "title": "Rif autour de Chefchaouen", "author": "GuHKS", "licenseName": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_view_of_the_Rif_Mountains_around_Chefchaouen._.jpg", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/", "image": "/assets/img/rif-chefchaouen-640.webp", "alt": "Paysage des montagnes du Rif autour de Chefchaouen" },
+      { "title": "Route vers Chefchaouen", "author": "YoTuT", "licenseName": "CC BY 2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_road_to_Chefchaouen,_Morocco_(5408841877)_(3).jpg", "licenseUrl": "https://creativecommons.org/licenses/by/2.0/", "image": "/assets/img/road-chefchaouen-640.webp", "alt": "Chefchaouen et les reliefs du Rif vus depuis la route" },
+      { "title": "Corridor d'Akchour", "author": "Jaber Ab", "licenseName": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Road_To_Akchour.jpg", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/", "image": "/assets/img/road-akchour-640.webp", "alt": "Rivière et relief rocheux sur la route d'Akchour" },
+      { "title": "Montagnes d'Al Hoceima", "author": "Pierrebanoori", "licenseName": "CC BY-SA 3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountains_of_Morocco,_Al_Hoceima.JPG", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/", "image": "/assets/img/al-hoceima-640.webp", "alt": "Montagnes et habitat rural près d'Al Hoceima" }
+    ]
+  }
+}
